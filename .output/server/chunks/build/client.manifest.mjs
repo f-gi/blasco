@@ -1,4 +1,4 @@
-{
+const client_manifest = {
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
     "resourceType": "script",
     "module": true,
@@ -63,4 +63,7 @@
     "prefetch": true,
     "preload": true
   }
-}
+};
+
+export { client_manifest as default };
+//# sourceMappingURL=client.manifest.mjs.map
